@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- Copyright 2014 A.C.R. Development -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.jtechme.jumpgo">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +10,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
     <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
 
     <uses-feature
         android:name="android.hardware.location.gps"
@@ -89,7 +89,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="" />
+                <data android:scheme=""
+                    tools:ignore="GoogleAppIndexingUrlError" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
             </intent-filter>
@@ -132,12 +133,14 @@
             </intent-filter>
         </activity>
 
+        <!--
         <activity android:name="com.jtechme.jumpgo.activity.LLandActivity" android:label="@string/lland" android:hardwareAccelerated="true" android:screenOrientation="locked" android:launchMode="singleInstance" android:exported="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        -->
 
         <!--
         This next activity is for the new shortcuts feature for 2016
