@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 24
-        versionName "4.2.9.8"
+        versionName "4.2.9.8 dev"
     }
     sourceSets {
         lightningPlus.setRoot('src/LightningPlus')
@@ -18,19 +18,27 @@ android {
             minifyEnabled false
             shrinkResources false
             proguardFiles 'proguard-project.txt'
+            lintOptions {
+                disable 'MissingTranslation'
+                disable 'ExtraTranslation'
+            }
         }
 
         release {
             minifyEnabled true
             shrinkResources true
             proguardFiles 'proguard-project.txt'
+            lintOptions {
+                disable 'MissingTranslation'
+                disable 'ExtraTranslation'
+            }
         }
     }
     productFlavors {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "true"
-            applicationId "com.jtechme.jumpgo"
-            versionCode 103
+            applicationId "com.jtechme.jumpgodev"
+            versionCode 105
         }
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"

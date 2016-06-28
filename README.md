@@ -1,5 +1,5 @@
-#JumpGo Browser [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
-####Finally! Out of the beta!
+#JumpGo Dev for Android [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg)](https://travis-ci.org/JTechMe/JumpGo)
+####JumpGo Developer Edition is coming to Android!
 #![](ic_launcher_small.png)
 ####Download
 * [Download APK from here](https://github.com/JTechMe/JumpGo/releases)
@@ -8,9 +8,6 @@
 
 ####Master Branch
 * [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=master)](https://travis-ci.org/JTechMe/JumpGo)
-
-####Dev Branch
-* [![Build Status](https://travis-ci.org/JTechMe/JumpGo.svg?branch=dev)](https://travis-ci.org/JTechMe/JumpGo)
 
 ####Features
 * Bookmarks
@@ -63,8 +60,6 @@
 ####Contributing
 * Contributions are always welcome
 * If you want a feature and can code, feel free to fork and add the change yourself and make a pull request
-* PLEASE use the ````dev```` branch when contributing as the ````master```` branch is supposed to be for stable builds. I will not reject your pull request if you make it on master, but it will annoy me and make my life harder.
-  * Find the ````dev```` branch at [https://github.com/JTechMe/JumpGo/tree/dev](https://github.com/JTechMe/JumpGo/tree/dev)
 * Code Style
     * Standard Java camel case
     * Member variables are preceded with an 'm'
