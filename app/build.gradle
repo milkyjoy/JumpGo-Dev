@@ -36,13 +36,13 @@ android {
     productFlavors {
         lightningPlus {
             buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
-            applicationId "acr.browser.lightning"
+            applicationId "com.jtechme.jumpgodev"
             versionCode project.versionCode_plus
         }
 
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"false\")"
-            applicationId "acr.browser.barebones"
+            applicationId "com.jtechme.jumpgolite"
             versionCode project.versionCode_lite
         }
     }
@@ -113,4 +113,12 @@ dependencies {
 
     // kotlin
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    // ...
+    compile 'com.google.firebase:firebase-core:11.0.2'
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+    compile 'com.firebase:firebase-jobdispatcher:0.7.0'
+
 }
+
+apply plugin: 'com.google.gms.google-services'

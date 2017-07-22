@@ -17,7 +17,7 @@
 
 <resources>
 
-    <string name="app_name">Lightning</string>
+    <string name="app_name">JumpGo</string>
     <string name="action_new_tab">Új Lap</string>
     <string name="action_share">Megosztás</string>
     <string name="action_history">Előzmények</string>
@@ -115,7 +115,6 @@
     <string name="action_manual">Kézi</string>
     <string name="action_auto">Automata</string>
     <string name="action_follow_me">Vedd fel velem a kapcsolatot</string>
-    <string name="url_twitter">twitter.com/RestainoAnthony</string>
     <string name="clear_cache">Gyorsítótár törlése</string>
     <string name="message_cache_cleared">Gyorsítótár törölve</string>
     <string name="message_import">Könyvjelzők importálva</string>

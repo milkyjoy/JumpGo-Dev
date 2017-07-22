@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lightning</string>
+    <string name="app_name">JumpGo</string>
     <string name="action_add_bookmark">Pridėti žymę</string>
     <string name="action_add_to_homescreen">Pridėti į pradžios langą</string>
     <string name="action_allow">Leisti</string>
@@ -40,4 +40,8 @@
     <string name="no">Ne</string>
     <string name="name_normal">Normalus</string>
     <string name="port">Portas:</string>
+    <string name="jgh">JumpGo namo</string>
+    <string name="jgh_description">JumpGo Pradžios puslapis</string>
+    <string name="tabs_in_drawer">Rodo skirtukai navigacijos stalčių</string>
+    <string name="home">Lietuva</string>
 </resources>

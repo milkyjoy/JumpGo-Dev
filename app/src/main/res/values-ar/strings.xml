@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lightning</string>
+    <string name="app_name">JumpGo</string>
     <string name="settings">إعدادات المتصفح</string>
     <string name="location">الوصول إلى موقعك</string>
     <string name="password">حفظ كلمات السر</string>
@@ -82,4 +82,31 @@
     <string name="action_forward">الأمام</string>
     <string name="folder_default">الافتراضي</string>
     <string name="folder_custom">مخصص</string>
+    <string name="jgh">موقع JumpGo</string>
+    <string name="jgh_description">الصفحة المنتقل JumpGo</string>
+    <string name="tabs_in_drawer">اظهار علامات التبويب فى درج الملاحة</string>
+    <string name="this_project">هذا المشروع GitHub</string>
+    <string name="settings_display_explain">وضع الشاشة الكاملة, حجم النص, الخ..</string>
+    <string name="settings_general_explain">البحث Adblocker, الصفحة الرئيسية...</string>
+    <string name="no">لا</string>
+    <string name="message_added_to_homescreen">اضافة الاختصار الى الشاشة الرئيسية</string>
+    <string name="message_blocked_local">الملف المحلى تم حظره من التحميل</string>
+    <string name="message_import">المفضلة المستوردة</string>
+    <string name="message_link_copied">Link تم نسخه الى الحافظة</string>
+    <string name="message_text_copied">نص تم نسخه الى الحافظة</string>
+    <string name="loading_failed">لا يمكن تحميل اى شئ من الصفحة.</string>
+    <string name="light_theme">موضوع خفيف</string>
+    <string name="invert_color">عكس الالوان</string>
+    <string name="install_orbot">يرجى تثبيت Orbot بغية مع الوكيل Tor.</string>
+    <string name="incognito_cookies">تمكين ملفات تعريف الارتباط فى وضع Incognito</string>
+    <string name="import_bookmark_error">تعذر استيراد الاشارات المرجعية من الملف</string>
+    <string name="import_backup">استيراد الاشارات المرجعية من النسخ الاحتياطى</string>
+    <string name="hint_username">اسم المستخدم</string>
+    <string name="freeware">برامج مجانية</string>
+    <string name="folder">اسم المجلد</string>
+    <string name="export_bookmarks">تصدير المفضلة الى نسخة احتياطية</string>
+    <string name="download_sdcard_busy_dlg_title">تخزين USB غير متوفر</string>
+    <string name="download_sdcard_busy_dlg_msg">تخزين مشغول. السماح للتنزيل, المس ايقاف تشغيل تخزين USB فى الاشعار.</string>
+    <string name="download_no_sdcard_dlg_title">اى بطاقة SD</string>
+    <string name="download_no_sdcard_dlg_msg">يلزم توفر وحدات تخزين USB لتنزيل الملف.</string>
 </resources>

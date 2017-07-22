@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.GeneralSettingsFragment"
-        android:title="@string/settings_general"/>
+        android:fragment="com.jtechme.jumpgo.settings.fragment.GeneralSettingsFragment"
+        android:title="@string/settings_general"
+        android:summary="@string/settings_general_explain" />
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.BookmarkSettingsFragment"
-        android:title="@string/bookmark_settings"/>
+        android:fragment="com.jtechme.jumpgo.settings.fragment.BookmarkSettingsFragment"
+        android:title="@string/bookmark_settings"
+        android:summary="@string/settings_bookmark_explain" />
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.DisplaySettingsFragment"
-        android:title="@string/settings_display"/>
+        android:fragment="com.jtechme.jumpgo.settings.fragment.DisplaySettingsFragment"
+        android:title="@string/settings_display"
+        android:summary="@string/settings_display_explain" />
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.PrivacySettingsFragment"
-        android:title="@string/settings_privacy"/>
+        android:fragment="com.jtechme.jumpgo.settings.fragment.PrivacySettingsFragment"
+        android:title="@string/settings_privacy"
+        android:summary="@string/settings_privacy_explain" />
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.AdvancedSettingsFragment"
-        android:title="@string/settings_advanced"/>
+        android:fragment="com.jtechme.jumpgo.settings.fragment.AdvancedSettingsFragment"
+        android:title="@string/settings_advanced"
+        android:summary="@string/settings_advanced_explain" />
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.AboutSettingsFragment"
+        android:fragment="com.jtechme.jumpgo.settings.fragment.AboutSettingsFragment"
         android:summary="@string/settings_about_explain"
         android:title="@string/settings_about"/>
     <header
-        android:summary="@string/faq_description"
-        android:title="@string/faq">
+        android:summary="@string/jgh_description"
+        android:title="@string/jgh">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://acrdevelopment.org/lightning/faq">
+            android:data="http://jtechme.github.io/jg/jumpgo">
             <extra
                 android:name="SOURCE"
                 android:value="SELF"/>
         </intent>
     </header>
     <header
-        android:fragment="acr.browser.lightning.settings.fragment.DebugSettingsFragment"
+        android:fragment="com.jtechme.jumpgo.settings.fragment.DebugSettingsFragment"
         android:title="@string/debug_title"/>
 </preference-headers>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lightning</string>
+    <string name="app_name">JumpGo</string>
     <string name="action_new_tab">Nowa karta</string>
     <string name="action_share">Udostępnij</string>
     <string name="action_history">Historia</string>
@@ -96,7 +96,7 @@
     <string name="action_manual">Ręcznie</string>
     <string name="action_auto">Automatycznie</string>
     <string name="action_follow_me">Skontaktuj się z autorem</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
+    <string name="url_insta">instagram.com/jth.digiart/</string>
     <string name="clear_cache">Wyczyść pamięć podręczną</string>
     <string name="message_cache_cleared">Pamięć podręczna została wyczyszczona</string>
     <string name="message_import">Zakładki zostały zaimportowane</string>

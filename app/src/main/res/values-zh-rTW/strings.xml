@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">閃電</string>
+    <string name="app_name">JumpGo</string>
     <string name="action_new_tab">新建標籤</string>
     <string name="action_share">分享頁面</string>
     <string name="action_history">歷史記錄</string>
@@ -93,7 +93,7 @@
     <string name="action_manual">手工</string>
     <string name="action_auto">自動</string>
     <string name="action_follow_me">聯繫我</string>
-    <string name="url_twitter">twitter.com/ACRDevelopment</string>
+    <string name="url_insta">instagram.com/jth.digiart/</string>
     <string name="clear_cache">清除緩存</string>
     <string name="message_cache_cleared">緩存已清除</string>
     <string name="message_import">書簽導入成功</string>

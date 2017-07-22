@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="app_name">Lightning</string>
+    <string name="app_name">JumpGo</string>
+    <string name="app_lightning">Lightning</string>
     <string name="action_new_tab">New tab</string>
     <string name="action_share">Share</string>
     <string name="action_history">History</string>
@@ -20,6 +21,7 @@
     <string name="java">Enable JavaScript</string>
     <string name="download">Download location</string>
     <string name="settings_advanced">Advanced Settings</string>
+    <string name="settings_advanced_explain">Recommended for experts</string>
     <string name="apache">Apache License 2.0</string>
     <string name="version">Application version</string>
     <string name="cache">Clear cache on exit</string>
@@ -101,7 +103,7 @@
     <string name="action_manual">Manual</string>
     <string name="action_auto">Auto</string>
     <string name="action_follow_me">Contact me</string>
-    <string name="url_twitter">twitter.com/RestainoAnthony</string>
+    <string name="url_insta">instagram.com/jth.digiart/</string>
     <string name="clear_cache">Clear cache</string>
     <string name="message_cache_cleared">Cache cleared</string>
     <string name="message_import">Bookmarks were imported</string>
@@ -177,11 +179,15 @@
     <string name="bookmark_export_path">Bookmarks exported to</string>
     <string name="bookmark_export_failure">Sorry, bookmarks could not be exported!</string>
     <string name="bookmark_settings">Bookmark Settings</string>
+    <string name="settings_bookmark_explain">Exporting and Importing</string>
     <string name="import_bookmark_error">Could not import bookmarks from file</string>
     <string name="title_chooser">Choose a file</string>
     <string name="settings_general">General Settings</string>
+    <string name="settings_general_explain">Adblocker, Search engine, Homepage...</string>
     <string name="settings_display">Display Settings</string>
+    <string name="settings_display_explain">Full screen mode, Text size, etc...</string>
     <string name="settings_privacy">Privacy Settings</string>
+    <string name="settings_privacy_explain">Cache, cookies, history, etc...</string>
     <string name="settings_about">About</string>
     <string name="settings_about_explain">Details about version, author and license.</string>
     <string name="close_tab">Close current tab</string>
@@ -229,6 +235,14 @@
     <string name="flash_not_supported">Flash Player is not supported by your system</string>
     <string name="upsell_plus_version">Upgrade to Lightning Plus to block ads</string>
     <string name="message_open_download_fail">This file doesn\'t exist anymore</string>
+    <string name="url_project" translatable="false">github.com/JTechMe/JumpGo</string>
+    <string name="this_project">This Project</string>
+
+    <!-- Link to JumpGo landing page in settings -->
+    <string name="jgh">JumpGo Home</string>
+    <string name="jgh_description">Landing Page For JumpGo</string>
+    <string name="action_home">Home</string>
+    <string name="the_jumpgo_project">The JumpGo Project</string>
 
     <string name="faq">FAQ</string>
     <string name="faq_description">Frequently asked questions</string>
